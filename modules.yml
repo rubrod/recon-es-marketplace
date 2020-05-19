@@ -61,6 +61,46 @@
   path: recon/domains-documents/docs
   required_keys: []
   version: '1.0'
+- author: Rodrigo Baladrón de Juan
+  dependencies:
+  - bs4
+  - lxml
+  - dateparser
+  - selenium
+  - requests
+  description: ''
+  files:
+  - geckodriver
+  last_updated: '2020-05-05'
+  name: Pastes
+  path: recon/brands-pastes/pastes
+  required_keys: []
+  version: '1.0'
+- author: Rodrigo Baladrón de Juan
+  dependencies:
+  - bs4
+  - lxml
+  - dateparser
+  - selenium
+  - requests
+  description: ''
+  files:
+  - geckodriver
+  last_updated: '2020-05-05'
+  name: Forums
+  path: recon/brands-posts/forums
+  required_keys: []
+  version: '1.0'
+- author: Rodrigo Baladrón de Juan
+  dependencies:
+  - dnspython
+  description: ''
+  files: []
+  last_updated: '2020-05-05'
+  name: Blacklist Check
+  path: recon/domains-spamMailServers/blacklist_check
+  required_keys: []
+  version: '1.0'
 - author: thrapt (thrapt@gmail.com)
   dependencies: []
   description: Uses the DNS cache snooping technique to check for visited domains
