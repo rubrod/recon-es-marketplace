@@ -1,3 +1,66 @@
+- author: Rubén Álvarez Elena
+  dependencies:
+  - requests
+  - tldextract
+  - dnspython
+  description: ''
+  files:
+  - TLDs.txt
+  last_updated: '2020-05-05'
+  name: Similar Domains
+  path: recon/domains-similarDomains/similar_domains
+  required_keys: []
+  version: '1.0'
+- author: Rubén Álvarez Elena
+  dependencies:
+  - requests
+  - bs4
+  - lxml
+  - PyPDF2
+  description: ''
+  files: []
+  last_updated: '2020-05-05'
+  name: Emails
+  path: recon/domains-emails/emails
+  required_keys: []
+  version: '1.0'
+- author: Rubén Álvarez Elena
+  dependencies:
+  - requests
+  description: ''
+  files: []
+  last_updated: '2020-05-05'
+  name: Emails Hunter
+  path: recon/domains-emails/emails_hunter
+  required_keys:
+  - hunter_api
+  version: '1.0'
+- author: Rubén Álvarez Elena
+  dependencies:
+  - requests
+  - bs4
+  - lxml
+  - dateparser
+  description: ''
+  files: []
+  last_updated: '2020-05-05'
+  name: News
+  path: recon/brands-news/news
+  required_keys: []
+  version: '1.0'
+- author: Rubén Álvarez Elena
+  dependencies:
+  - requests
+  - bs4
+  - lxml
+  - PyPDF2
+  description: ''
+  files: []
+  last_updated: '2020-05-05'
+  name: Docs
+  path: recon/domains-documents/docs
+  required_keys: []
+  version: '1.0'
 - author: Rodrigo Baladrón de Juan
   dependencies:
   - bs4
