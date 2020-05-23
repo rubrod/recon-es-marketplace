@@ -66,16 +66,14 @@
   - bs4
   - lxml
   - dateparser
-  - selenium
   - requests
   description: ''
-  files:
-  - geckodriver
-  last_updated: '2020-05-05'
+  files: []
+  last_updated: '2020-05-23'
   name: Pastes
   path: recon/brands-pastes/pastes
   required_keys: []
-  version: '1.0'
+  version: '1.1'
 - author: Rodrigo Baladrón de Juan
   dependencies:
   - bs4
